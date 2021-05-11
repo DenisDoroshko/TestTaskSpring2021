@@ -1,0 +1,15 @@
+﻿<Window x:Class="UserInterface.CommandSelectingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserInterface"
+        mc:Ignorable="d"
+        Title="CommandSelectingWindow" Height="307" Width="545" Background="Gainsboro" WindowStartupLocation="CenterOwner">
+    <Grid Margin="0,0,0,-6">
+        <ListBox x:Name="commandsBox" Margin="138,10,139,98" SelectedIndex="0"/>
+        <Button x:Name="point" Content="Select" HorizontalAlignment="Center" Margin="0,232,0,0" VerticalAlignment="Top" Height="36" Width="167" Click="selectClick"/>
+
+    </Grid>
+
+</Window>

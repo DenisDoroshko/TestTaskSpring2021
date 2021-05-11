@@ -1,0 +1,39 @@
+﻿<Window x:Class="UserInterface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UserInterface"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="405" Width="632" Background="Gainsboro" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button x:Name="number0" Content="0" HorizontalAlignment="Left" Margin="244,250,0,0" VerticalAlignment="Top" Height="36" Width="40" Click="numberClick"/>
+        <Button x:Name="number1" Content="1" HorizontalAlignment="Left" Margin="184,95,0,0" VerticalAlignment="Top" Height="35" Width="40" Click="numberClick"/>
+        <Button x:Name="number2" Content="2" HorizontalAlignment="Left" Margin="244,95,0,0" VerticalAlignment="Top" Height="35" Width="40" Click="numberClick"/>
+        <Button x:Name="number3" Content="3" HorizontalAlignment="Left" Margin="303,95,0,0" VerticalAlignment="Top" Height="35" Width="40" Click="numberClick"/>
+        <Button x:Name="number4" Content="4" HorizontalAlignment="Left" Margin="184,148,0,0" VerticalAlignment="Top" Height="35" Width="40" Click="numberClick"/>
+        <Button x:Name="number5" Content="5" HorizontalAlignment="Left" Margin="244,148,0,0" VerticalAlignment="Top" Height="35" Width="40" Click="numberClick"/>
+        <Button x:Name="number6" Content="6" HorizontalAlignment="Left" Margin="303,148,0,0" VerticalAlignment="Top" Height="36" Width="40" Click="numberClick"/>
+        <Button x:Name="number7" Content="7" HorizontalAlignment="Left" Margin="184,195,0,0" VerticalAlignment="Top" Height="35" Width="40" RenderTransformOrigin="0.54,0.635" Click="numberClick"/>
+        <Button x:Name="number8" Content="8" HorizontalAlignment="Left" Margin="244,195,0,0" VerticalAlignment="Top" Height="35" Width="40" Click="numberClick"/>
+        <Button x:Name="number9" Content="9" HorizontalAlignment="Left" Margin="303,195,0,0" VerticalAlignment="Top" Height="35" Width="40" Click="numberClick"/>
+        <Button x:Name="point" Content="," HorizontalAlignment="Left" Margin="184,250,0,0" VerticalAlignment="Top" Height="36" Width="40" Click="commaClick"/>
+        <Button x:Name="equality" Content="=" HorizontalAlignment="Left" Margin="303,250,0,0" VerticalAlignment="Top" Height="36" Width="40" Click="equalityClick"/>
+        <Button x:Name="additin" Content="+" HorizontalAlignment="Left" Margin="360,251,0,0" VerticalAlignment="Top" Height="35" Width="40" Click="commandClick"/>
+        <Button x:Name="subtraction" Content="-" HorizontalAlignment="Left" Margin="360,195,0,0" VerticalAlignment="Top" Height="35" Width="40" Click="commandClick"/>
+        <Button x:Name="multiplication" Content="*" HorizontalAlignment="Left" Margin="360,148,0,0" VerticalAlignment="Top" Height="35" Width="40" Click="commandClick"/>
+        <Button x:Name="division" Content="/" HorizontalAlignment="Left" Margin="360,95,0,0" VerticalAlignment="Top" Height="35" Width="40" Click="commandClick"/>
+        <TextBox x:Name="resultBox" IsReadOnly="True" HorizontalAlignment="Left" Margin="184,10,0,0" Text="" TextWrapping="NoWrap" VerticalContentAlignment="Center" VerticalAlignment="Top" Width="216" Height="32" FontWeight="Bold"/>
+        <TextBox x:Name="inputBox" IsReadOnly="True" HorizontalAlignment="Left" Margin="184,47,0,0" Text="" TextWrapping="NoWrap" VerticalContentAlignment="Center" VerticalAlignment="Top" Width="216" Height="32" FontWeight="Bold"/>
+        <Button x:Name="clear" Content="Clear" HorizontalAlignment="Left" Margin="422,95,0,0" VerticalAlignment="Top" Height="36" Width="40" Click="resetClick"/>
+        <Button x:Name="undo" Content="Undo" HorizontalAlignment="Left" Margin="422,148,0,0" VerticalAlignment="Top" Height="36" Width="40" Click="undoClick"/>
+        <Button x:Name="addedCommand1" Content="Set" HorizontalAlignment="Left" Margin="184,314,0,0" VerticalAlignment="Top" Height="36" Width="40" Click="setCommandClick"/>
+        <Button x:Name="addedCommand2" Content="Set" HorizontalAlignment="Left" Margin="246,314,0,0" VerticalAlignment="Top" Height="36" Width="40" Click="setCommandClick"/>
+        <Button x:Name="addedCommand3" Content="Set" HorizontalAlignment="Left" Margin="303,314,0,0" VerticalAlignment="Top" Height="36" Width="40" Click="setCommandClick"/>
+        <Button x:Name="addedCommand4" Content="Set" HorizontalAlignment="Left" Margin="360,314,0,0" VerticalAlignment="Top" Height="36" Width="40" Click="setCommandClick"/>
+        <Button x:Name="remove1" Content="x" Panel.ZIndex="-10" HorizontalAlignment="Left" Margin="219,307,0,0" VerticalAlignment="Top" VerticalContentAlignment="Top" Height="19" Width="17" Click="removeCommandClick" FontSize="10" FontWeight="Bold" BorderBrush="#FFDDDDDD"/>
+        <Button x:Name="remove2" Content="x" Panel.ZIndex="-10" HorizontalAlignment="Left" Margin="281,307,0,0" VerticalAlignment="Top" VerticalContentAlignment="Top" Height="19" Width="17" Click="removeCommandClick" FontSize="10" FontWeight="Bold" BorderBrush="#FFDDDDDD"/>
+        <Button x:Name="remove3" Content="x" Panel.ZIndex="-10" HorizontalAlignment="Left" Margin="338,307,0,0" VerticalAlignment="Top" VerticalContentAlignment="Top" Height="19" Width="17" Click="removeCommandClick" FontSize="10" FontWeight="Bold" BorderBrush="#FFDDDDDD"/>
+        <Button x:Name="remove4" Content="x" Panel.ZIndex="-10" HorizontalAlignment="Left" Margin="395,307,0,0" VerticalAlignment="Top" VerticalContentAlignment="Top" Height="19" Width="17" Click="removeCommandClick" FontSize="10" FontWeight="Bold" BorderBrush="#FFDDDDDD"/>
+    </Grid>
+</Window>

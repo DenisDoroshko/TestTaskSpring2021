@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "UserInterface/1.0.0": {
+        "dependencies": {
+          "Calculating": "1.0.0"
+        },
+        "runtime": {
+          "UserInterface.dll": {}
+        }
+      },
+      "Calculating/1.0.0": {
+        "runtime": {
+          "Calculating.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UserInterface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Calculating/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
